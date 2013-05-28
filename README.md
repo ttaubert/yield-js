@@ -9,7 +9,7 @@ Please note that this module currently requires node.js v0.11.2 (or higher)
 started with `--use-strict` and `--harmony` as it makes heavy use of generators,
 sets and block-scoped variables.
 
-# examples
+# example
 
 ``` js
 // Generator containing the sequence of natural numbers.
