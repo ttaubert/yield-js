@@ -1,8 +1,9 @@
 # yield.js
 
-yield.js - a library providing functional helpers for generators
+library providing functional helpers for generators
 
 [![build status](https://secure.travis-ci.org/ttaubert/yield-js.png)](http://travis-ci.org/ttaubert/yield-js)
+(This will stay red until Travis updates to node.js v0.11.2.)
 
 Please note that this module currently requires node.js v0.11.2 (or higher)
 started with `--use-strict` and `--harmony` as it makes heavy use of generators,
