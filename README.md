@@ -194,7 +194,7 @@ function greaterThanZero(x) {
 
 y.every(y.range(1, 5), greaterThanZero); // true
 y.every([0, 1, 2, 3, 4], greaterThanZero); // false
-y.every([], greaterThanZero), true);
+y.every([], greaterThanZero); // true
 ```
 
 ## some(it, p)
@@ -209,7 +209,7 @@ function equalToZero(x) {
 
 y.some(y.range(1, 5), equalToZero); // false
 y.some([0, 1, 2, 3, 4], equalToZero); // true
-y.some([], equalToZero), false);
+y.some([], equalToZero); // false
 ```
 
 ## size(it)
