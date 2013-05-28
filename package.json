@@ -1,6 +1,6 @@
 {
   "name": "yield",
-  "version": "0.0.6-2",
+  "version": "0.0.6-3",
   "description": "library providing functional helpers for generators",
   "main": "index.js",
   "keywords": [
