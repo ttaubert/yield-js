@@ -1,0 +1,31 @@
+{
+  "name": "yield",
+  "version": "0.0.6-2",
+  "description": "library providing functional helpers for generators",
+  "main": "index.js",
+  "keywords": [
+    "yield",
+    "infinite",
+    "sequence",
+    "generator",
+    "functional"
+  ],
+  "devDependencies": {
+    "tape": "~1.0.2",
+    "tap-harmony": "~0.4.3"
+  },
+  "scripts": {
+    "test": "tap-harmony --strict --harmony test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ttaubert/yield-js.git"
+  },
+  "homepage": "https://github.com/ttaubert/yield-js",
+  "author": {
+    "name": "Tim Taubert",
+    "email": "tim@timtaubert.de",
+    "url": "http://timtaubert.de/"
+  },
+  "license": "MIT"
+}
